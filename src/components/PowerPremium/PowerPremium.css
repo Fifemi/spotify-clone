@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    background-color: white;
+    padding: 20px;
+}
+.image-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-list .item{
+    width: 285px;
+    height: 283px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.image-list .item img{
+    width: 142px;
+    height: 142px;
+}
+
+.image-list .item .headerText{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-list .item .subtext{
+    font-size: 13px;
+    font-weight: normal;
+}
